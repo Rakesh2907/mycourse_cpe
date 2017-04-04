@@ -1,0 +1,95 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+	/*border: 1px solid #ccc;
+	background-color: #eee;*/
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+	float:left;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown-amount {
+    font-size: 200%;
+}
+.countdown-period {
+    display: block;
+}
+.countdown-descr {
+	display: block;
+	width: 100%;
+}
+
+
+#clockdiv {
+  clear: both;
+}
+.is-countdown {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 302px;
+  width: 100%;
+  color:#40798c;
+}
+.is-countdown .countdown-section .countdown-amount {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 36px;
+}	
+.is-countdown .countdown-section .countdown-period {
+  font-size: 11px;
+font-weight: 600;
+margin-top: 8px;
+text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+.is-countdown {
+  color: #fff;
+}
+.is-countdown .countdown-section .countdown-amount {
+  font-size: 18px;
+  letter-spacing: -1.1px;
+  line-height: inherit;
+}
+.is-countdown .countdown-section .countdown-period {
+font-size: 10px;
+margin-top: 3px;
+}
+}

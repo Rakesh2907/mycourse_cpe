@@ -1,0 +1,1 @@
+ALTER TABLE `course_chapter_review_progress`  ADD `user_id` INT NULL  AFTER `answer_id`;

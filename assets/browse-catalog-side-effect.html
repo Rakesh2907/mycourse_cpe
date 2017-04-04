@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Browse Catalog | CPE Nation</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Feather Fonts -->
+    <link href="css/feather.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <!-- Font Family -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    
+    <!-- Select Box -->
+    <link href="css/bootstrap-select.css" rel="stylesheet">
+    <!-- drawer -->
+   <link rel="stylesheet" type="text/css" href="css/jv-jquery-mobile-menu.css">
+   <!-- /scroller -->
+   <link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  <div class="page">
+  
+  <div class="wrapper header-top inner-nav">
+  <div class="container">
+  <div class="logo pull-left">
+  <a href="#">
+  <img class="white-logo" src="images/cpe-logo-wht.png" alt="CPENATION" />
+  <img class="clr-logo" src="images/cpe-logo-clr.png" alt="CPENATION" />
+  </a>
+  </div> <!-- /logo -->
+  
+  <div class="right-nav main-nav pull-right">
+ 
+ <ul class="nav navbar-nav">
+            <li class="active"><a href="#">BUNDLES</a></li>
+            <li><a href="#">SUBSCRIPTIONS</a></li>
+            <li><a href="#">CATALOG</a></li>
+            <li><a href="#">HELP</a></li>
+            <li><a class="cart-mn" href="#"><img class="cart-bsk menu_ic_wht" src="images/cart-basket.png" width="24" alt="cart" />
+            <img class="cart-bsk menu_ic_blc" src="images/cart-basket-black.png" width="24" alt="cart" />
+            Cart (1)</a></li>
+            
+            <li class="btn-link"><a href="#" class="btn">LOG IN</a></li>
+            
+          </ul> 
+          
+          <div class="hamburger hamburger--spin cust-position">
+          <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+          </div>
+          
+                
+  </div> <!-- /right-nav -->
+  
+  </div> <!-- /container --> 
+  </div> <!-- /inner-nav -->
+  
+<div class="section-full bd-pd-tp-16 mng-filter mng-filter-catalog bd-min-hgt">
+
+<div id="filt_Cont" class="filter-sidebar br-cat-Flt mult-filter" style="display:none !important;">
+<div class="filter_inner">
+<div class="close-sec">Hide Filters <span class="close icon-cross" id="hideFilter" onclick="toggler('filt_Cont');"></span></div>
+
+<div class="panel-group custom-panel" id="accordion">
+  <div class="panel flt_state">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          State  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+    
+    <div class="search-sec">
+    <button class="btn" type="submit"><span class="icon-search"></span></button>
+     <input type="text" class="form-control" placeholder="Search States" /></div>
+    
+      <div class="panel-body filter-max-ht cust-scroll">
+     <ul class="list-unstyled">
+ <li><input type="checkbox" name="checkboxG1" id="checkboxG1" class="css-checkbox" /> <label for="checkboxG1" class="css-label">Alabama</label></li>
+ <li><input type="checkbox" name="checkboxG2" id="checkboxG2" class="css-checkbox" checked="checked"/><label for="checkboxG2" class="css-label">Alaska</label></li>
+<li><input type="checkbox" name="checkboxG2" id="checkboxG3" class="css-checkbox" checked="checked"/><label for="checkboxG3" class="css-label">Arizona</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG4" class="css-checkbox" /> <label for="checkboxG4" class="css-label">Arkansas</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG5" class="css-checkbox" /> <label for="checkboxG5" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG6" class="css-checkbox" /> <label for="checkboxG6" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG7" class="css-checkbox" /> <label for="checkboxG7" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG8" class="css-checkbox" /> <label for="checkboxG8" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG9" class="css-checkbox" /> <label for="checkboxG9" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG10" class="css-checkbox" /> <label for="checkboxG10" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG11" class="css-checkbox" /> <label for="checkboxG11" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG12" class="css-checkbox" /> <label for="checkboxG12" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG13" class="css-checkbox" /> <label for="checkboxG13" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG14" class="css-checkbox" /> <label for="checkboxG14" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG15" class="css-checkbox" /> <label for="checkboxG15" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG16" class="css-checkbox" /> <label for="checkboxG16" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG17" class="css-checkbox" /> <label for="checkboxG17" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG18" class="css-checkbox" /> <label for="checkboxG18" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG19" class="css-checkbox" /> <label for="checkboxG19" class="css-label">California</label></li>
+<li><input type="checkbox" name="checkboxG1" id="checkboxG20" class="css-checkbox" /> <label for="checkboxG20" class="css-label">California</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- panel -->
+  
+  <div class="panel flt_Topic">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Topic  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseTwo" class="panel-collapse collapse in">
+    
+    <div class="search-sec">
+    <button class="btn" type="submit"><span class="icon-search"></span></button>
+     <input type="text" class="form-control" placeholder="Search Topics" /></div>
+    
+      <div class="panel-body filter-max-ht cust-scroll">
+     <ul class="list-unstyled" id="accordionsub">
+ <li class="sub-item"><input type="checkbox" name="topic-checkboxG1" id="topic-checkboxG1" class="css-checkbox" checked="checked"/> <label for="topic-checkboxG1" class="css-label">Accounting 
+<a data-toggle="collapse" data-parent="#accordionsub" href="#collapseSub" class="arrow glyphicon glyphicon-menu-up"></a>
+ </label>
+ <div id="collapseSub" class="panel-collapse collapse">
+ 
+ <ul class="list-unstyled sub-filter">
+ <li><input type="checkbox" name="topic-sub-checkboxG1" id="topic-sub-checkboxG1" class="css-checkbox" /><label for="topic-sub-checkboxG1" class="css-label check-round">Financial</label> </li>
+  <li><input type="checkbox" name="topic-sub-checkboxG1" id="topic-sub-checkboxG2" class="css-checkbox" /><label for="topic-sub-checkboxG2" class="css-label check-round">Governmental</label> </li>
+
+ </ul>
+ </div>
+  </li>
+ 
+ <li><input type="checkbox" name="topic-checkboxG1" id="topic-checkboxG2" class="css-checkbox" /><label for="topic-checkboxG2" class="css-label">Management</label></li>
+<li><input type="checkbox" name="topic-checkboxG1" id="topic-checkboxG3" class="css-checkbox" /><label for="topic-checkboxG3" class="css-label">Taxation</label></li>
+<li><input type="checkbox" name="topic-checkboxG1" id="topic-checkboxG4" class="css-checkbox" /> <label for="topic-checkboxG4" class="css-label">Taxation</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- panel -->
+  
+  <div class="panel flt_Format">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          FORMAT  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseThree" class="panel-collapse collapse in">
+    
+      <div class="panel-body">
+     <ul class="list-unstyled">
+ <li><input type="checkbox" name="format-checkboxG1" id="format-checkboxG1" class="css-checkbox" checked="checked"/> <label for="format-checkboxG1" class="css-label">Text</label></li>
+ <li><input type="checkbox" name="format-checkboxG1" id="format-checkboxG2" class="css-checkbox"/><label for="format-checkboxG2" class="css-label">Webcast</label></li>
+<li><input type="checkbox" name="format-checkboxG1" id="format-checkboxG3" class="css-checkbox"/><label for="format-checkboxG3" class="css-label">Webinar</label></li>
+<li><input type="checkbox" name="format-checkboxG1" id="format-checkboxG4" class="css-checkbox"/> <label for="format-checkboxG4" class="css-label">Live seminar</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- /panel -->
+ 
+ 
+ <div class="panel flt_Cr_hr">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          CREDIT HOURS  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseFour" class="panel-collapse collapse in">
+    
+      <div class="panel-body">
+     <ul class="list-unstyled list-col-2">
+ <li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG1" class="css-checkbox"/> <label for="Cr_hr-checkboxG1" class="css-label">1</label></li>
+ <li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG2" class="css-checkbox"/><label for="Cr_hr-checkboxG2" class="css-label">2</label></li>
+<li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG3" class="css-checkbox"/><label for="Cr_hr-checkboxG3" class="css-label">3</label></li>
+<li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG4" class="css-checkbox"/> <label for="Cr_hr-checkboxG4" class="css-label">4</label></li>
+<li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG5" class="css-checkbox"/> <label for="Cr_hr-checkboxG5" class="css-label">5</label></li>
+<li><input type="checkbox" name="Cr_hr-checkboxG1" id="Cr_hr-checkboxG6" class="css-checkbox"/> <label for="Cr_hr-checkboxG6" class="css-label">6</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- panel -->
+  
+ 
+ <div class="panel flt_Instruct">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+          INSTRUCTOR  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseFive" class="panel-collapse collapse in">
+    
+      <div class="panel-body">
+     <ul class="list-unstyled">
+ <li><input type="checkbox" name="instruct-checkboxG1" id="instruct-checkboxG1" class="css-checkbox"/> <label for="instruct-checkboxG1" class="css-label">Jae Kim</label></li>
+ <li><input type="checkbox" name="instruct-checkboxG1" id="instruct-checkboxG2" class="css-checkbox"/><label for="instruct-checkboxG2" class="css-label">Micheal Law</label></li>
+<li><input type="checkbox" name="instruct-checkboxG1" id="instruct-checkboxG3" class="css-checkbox"/><label for="instruct-checkboxG3" class="css-label">Mark</label></li>
+<li><input type="checkbox" name="instruct-checkboxG1" id="instruct-checkboxG4" class="css-checkbox"/> <label for="instruct-checkboxG4" class="css-label">Sheila</label></li>
+<li><input type="checkbox" name="instruct-checkboxG1" id="instruct-checkboxG5" class="css-checkbox"/> <label for="instruct-checkboxG5" class="css-label">Henry H</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- /panel -->
+  
+  <div class="panel flt_Require">
+      <div class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+          REQUIREMENTS  <span class="glyphicon glyphicon-menu-down"></span>
+        </a>
+      </div>
+    <div id="collapseSix" class="panel-collapse collapse in">
+    
+      <div class="panel-body">
+     <ul class="list-unstyled">
+ <li><input type="checkbox" name="reqr-checkboxG1" id="reqr-checkboxG1" class="css-checkbox"/> <label for="reqr-checkboxG1" class="css-label">IRS APPROVED</label></li>
+ <li><input type="checkbox" name="reqr-checkboxG1" id="reqr-checkboxG2" class="css-checkbox"/><label for="reqr-checkboxG2" class="css-label">CFP APPROVED</label></li>
+<li><input type="checkbox" name="reqr-checkboxG1" id="reqr-checkboxG3" class="css-checkbox"/><label for="reqr-checkboxG3" class="css-label">YELLOW-BOOK</label></li>
+     </ul>   
+        
+      </div>
+    </div>
+  </div> <!-- /panel -->
+  
+</div>
+
+
+</div> <!-- /filter_inner -->
+</div>  <!-- /filter-sidebar  -->
+
+
+<div class="container">
+
+
+
+<div class="row">
+<div class="col-sm-2 hidden-xs" id="showFilter">
+<a class="btn shw-filter" href="javascript:void(0);">Show Filters</a>
+</div> <!-- /col -->
+
+<div class="col-sm-8" id="search_bx">
+<div class="search-area br-cat-srch">
+<div class="form-group text-center">
+<input type="text" class="form-control" placeholder="Search bundles" /> <button class="btn" type="submit"><span class="icon-search"></span></button>
+</div>
+</div>
+
+<div class="row visible-xs br-cat-filt">
+<div class="col-xs-6 flt-res">
+<div class="filter-btn"><a href="#" class="btn fad-orange medium" onclick="toggler('filt_Cont');">Filters</a></div>
+</div>
+<div class="col-xs-6 sort-opt sort-opt-resp">
+<span class="text-line-select smp-drop right-select">
+  <select class="selectpicker">
+      <option selected>SORT</option>
+      <option>A to Z</option>
+      <option>Z to A</option>
+      <option>Price</option>
+      <option>No. of credits</option>
+  </select>
+  </span>
+</div>
+</div> <!-- row  br-cat-filt-->
+
+
+<div class="filter-tags br_catlog">
+<div class="filter-head">
+<strong class="pull-left">Selected States:</strong> <a href="#" class="reset_fl pull-right">Reset All</a>
+</div>
+<ul class="list-inline list-unstyled">
+<li class="select-flt-head"><strong>Selected States:</strong></li>
+<li><span>Alabama</span> <a class="close-tag" href="#"><img src="images/close-tag-act.png" alt="close" /></a></li>
+<li><span>Arizona</span> <a class="close-tag" href="#"><img src="images/close-tag-act.png" alt="close" /></a></li>
+<li><span>Colorado</span> <a class="close-tag" href="#"><img src="images/close-tag-act.png" alt="close" /></a></li>
+<li><span>Accounting </span> <a class="close-tag" href="#"><img src="images/close-tag-act.png" alt="close" /></a></li>
+<li><span>Online </span> <a class="close-tag" href="#"><img src="images/close-tag-act.png" alt="close" /></a></li>
+<li class="reset-flt"><a href="#">Reset All</a></li>
+</ul>
+</div> <!-- /filter-tags -->
+
+</div> <!-- /col-->
+
+<div class="col-sm-2 sort-opt hidden-xs">
+<span class="text-line-select smp-drop right-select">
+  <select class="selectpicker">
+      <option selected>SORT</option>
+      <option>A to Z</option>
+      <option>Z to A</option>
+      <option>Price</option>
+      <option>No. of credits</option>
+  </select>
+  </span>
+</div> <!-- /col-->
+
+</div> <!-- /row -->
+
+
+<div class="row bdl_sc_Grd all_bdl_grd">
+<div id="container_div" class="col-sm-12 col-md-12 col-lg-12"> <!-- col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9  col-sm-12 col-md-12 col-lg-12-->
+<div class="row">
+
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="22" alt="Video" src="images/bund-video-icon.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="22" alt="Video" src="images/bund-video-icon.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img">
+<div class="bund-type"><img width="22" alt="Video" src="images/bund-video-icon.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+<div class="bdl-col-adj col-sm-4 col-md-3">
+<div class="bund-list-sec bdl_Small">
+<div class="bund-img-sec">
+<img width="69" alt="bundle" src="images/bundle-starcbuks.png" class="bdl-img" />
+<div class="bund-type"><img width="18" alt="PDF" src="images/bund-pdf.png" /></div>
+<div class="bund-price">$75</div>
+</div> <!-- /bund-img-sec -->
+
+<div class="bund-desc">
+<h5>Intangible Asset Valuation </h5>
+<div class="bdl_small"><i>Stephen Parent</i></div>
+<div class="ttl-credit"><img alt="credit-icon" src="images/credit-icon.png" />4 credits</div>
+<a class="btn small_btn btn-blue-text" href="#">VIEW Course</a>
+</div> <!-- /bund-desc -->
+</div>
+</div> <!-- /col -->
+</div>
+
+
+<div class="pagination-wrap text-center">
+ <ul class="pagination">
+ <li class="pre"><a href="#">Previous</a></li>
+  <li><a href="#">1</a></li>
+  <li class="active"><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+  <li class="next"><a href="#">Next</a></li>
+</ul>
+</div> <!-- /pagination-wrap -->
+
+
+</div>
+
+
+</div> <!-- /row -->
+
+
+
+
+</div>
+
+
+
+</div> <!-- /section-full -->
+
+
+
+
+<div class="help-wrp rmv-tp-mrg">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 text-left help-que"><strong>Questions?</strong> <a href="#">Get some help</a></div>
+<div class="col-sm-6 text-right help-no">888.656.5334 | help@cpenation.com</div>
+</div>
+</div>
+</div> 
+
+<div class="footer">
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-8 col-sm-9 col-xs-12 pull-right footer-links">
+<ul class="list-unstyled list-inline">
+<li><a href="#">Home</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">REQUIREMENTS</a></li>
+<li><a href="#">COURSES</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Terms</a></li>
+</ul>
+</div>
+
+<div class="col-md-4 col-sm-3 col-xs-12 footer-logo"><img src="images/cpe-logo-wht.png" alt="CPENATION" /></div>
+
+</div>
+</div>
+</div> <!-- /footer -->
+
+</div> <!-- /page -->
+
+
+
+<!-- drawer Menu -->
+<div class="mobile-nav sidebar-off-canvas main-nav">
+<ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">BUNDLES</a></li>
+            <li><a href="#">SUBSCRIPTIONS</a></li>
+            <li><a href="#">CATALOG</a></li>
+            <li><a href="#">HELP</a></li>
+            <li><a href="#">Account</a></li>
+            <li class="btn-link"><a href="#" class="btn"><img class="cart-bsk" src="images/cart-basket.png" width="24" alt="cart" />Cart (1)</a></li>
+            
+          </ul> 
+</div>
+<!-- /drawer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+        
+        <!-- Sticky -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+			// grab the initial top offset of the navigation 
+		   	var stickyNavTop = $('.header-top').offset().top;
+		   	
+		   	// our function that decides weather the navigation bar should have "fixed" css position or not.
+		   	var stickyNav = function(){
+			    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+			         
+			    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+			    // otherwise change it back to relative
+			    if (scrollTop > stickyNavTop) { 
+			        $('.header-top').addClass('sticky');
+			    } else {
+			        $('.header-top').removeClass('sticky'); 
+			    }
+			};
+
+			stickyNav();
+			// and run it again every time you scroll
+			$(window).scroll(function() {
+				stickyNav();
+			});
+			
+			// Code by Pravin
+			$('#showFilter').click(function(){
+				$('#container_div').removeClass();
+				$('#container_div').addClass('col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9');
+				$('#search_bx').removeClass();
+				$('#search_bx').addClass('col-sm-6 col-sm-offset-2 col-md-7 col-md-offset-1');
+				$('#container_div .bdl-col-adj').removeClass('col-sm-4 col-md-3');
+				$('#container_div .bdl-col-adj').addClass('col-sm-6 col-md-4');
+				$('#filt_Cont').show();
+				$('.shw-filter').hide();
+				// col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9  col-sm-12 col-md-12 col-lg-12
+			});
+			$('#hideFilter').click(function(){
+				$('#container_div').removeClass();
+				$('#container_div').addClass('col-sm-12 col-md-12 col-lg-12');
+				//$('#search_bx').addClass('col-sm-8');
+				$('#search_bx').removeClass();
+				$('#search_bx').addClass('col-sm-8');
+				$('#container_div .bdl-col-adj').removeClass('col-sm-6 col-md-4');
+				$('#container_div .bdl-col-adj').addClass('col-sm-4 col-md-3');
+				$('#filt_Cont').hide();
+				$('.shw-filter').show();
+				// col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9  col-sm-12 col-md-12 col-lg-12
+			});
+			// Ends here
+			
+			
+			
+		});
+		
+	
+	</script>
+ 
+     <!-- close Sticky -->
+        
+        
+        <script src="js/bootstrap-select.js"></script>
+        <script type="text/javascript">
+        $(window).on('load', function () {
+
+            $('.selectpicker').selectpicker({
+                'selectedText': 'cat'
+            });
+
+            // $('.selectpicker').selectpicker('hide');
+        });
+    </script>
+        
+        
+        <!-- drawer -->
+        <script src="js/TweenMax.min.js"></script>
+     <script src="js/jv-jquery-mobile-menu-min.js"></script>
+     <script src="js/script-right.js"></script>
+    <!-- /drawer -->
+    
+    <!-- accordian -->
+    <script>
+	$('.collapse').on('shown.bs.collapse', function(){
+$(this).parent().find(".glyphicon-menu-up").removeClass("glyphicon-menu-up").addClass("glyphicon-menu-down");
+}).on('hidden.bs.collapse', function(){
+$(this).parent().find(".glyphicon-menu-down").removeClass("glyphicon-menu-down").addClass("glyphicon-menu-up");
+});
+	</script>
+    <!-- accordian close -->
+    
+    
+    
+    <!-- /scroller -->
+       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+       <script>
+		(function($){
+			$(window).load(function(){
+				
+			
+				$(".filter-max-ht").mCustomScrollbar({
+					theme:"dark-2"
+				});
+											
+			});
+		})(jQuery);
+	</script>
+    <!-- /scroller close -->
+    
+    <!-- filter show hide -->
+        <script>
+    function toggler(divId) {
+    $("#" + divId).toggle();
+}
+</script>
+<!-- /filter show hide -->
+
+  </body>
+</html>

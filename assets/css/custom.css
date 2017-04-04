@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+#hideFilter {
+    cursor: pointer !important;
+}
+
+.card-fld .m-card {
+	display:block !important;
+}
+.cart_bdl_Listing .cart_prs {
+    width: 170px !important;
+}
+.beatpicker-clear.beatpicker-clearButton.button{
+	display:none;
+}
+
+.modal-open .page {
+  z-index: 999;
+}
+.modal.abs-pop {
+  position: absolute;
+}
+.inline-label .inline-fld {
+  vertical-align:top;
+}
+
+/*.bdl_det_wrp.bd-min-hgt {
+  margin-top: 1px;
+}*/
+
+/***** 19 - Oct *****/
+.sugg_bdl .bund-list-sec .bdl-hd h5 {
+  line-height: 15px;
+}
+.billing_Acc .panel-collapse .billing-info {
+  vertical-align: top;
+}
+.billing_Acc .card-act .delt.default {
+  display: inline-block;
+  margin-top: 7px;
+}
+.prom-form-wrp .promo-form #promo-code-error {
+  display: inline-block;
+  margin-top: 10px;
+}
+.billing_Acc .panel .panel-title {
+  cursor:pointer;
+}
+/***** 19 - Oct Close *****/
+
+.card-list .bootstrap-select .filter-option.sprite-card-descover {
+  background-position: 15px -256px;
+}
+.card-list .bootstrap-select .filter-option.sprite-card-add-more {
+  background-position: 15px -206px;
+}
+.header-text-sec .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 247px;
+}
+.header-text-sec .text-line-select .dropdown-menu li.active a{
+  background-color: #c0d6df;
+  color:#32292f;
+}
+.header-text-sec .no-results {
+  color:#32292f;
+  text-shadow:none !important;
+  -webkit-text-shadow:none !important;
+  -ms-text-shadow:none !important;
+  -o-text-shadow:none !important;
+}
+.que-list .que-tst p {
+  display: inline;
+}
+.que-list .que-img {
+  margin-bottom: 13px;
+  margin-left: 35px;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+body .page {
+  padding-top: 80px;
+}
+}
+@media (max-width: 991px) {
+	.margin_bottom {
+    margin-bottom: 30px;
+}
+#promo-form {
+    width: 100%;
+}
+.prom-form-wrp .promo-form #promo-code-error {
+  margin-top: 0;
+}
+}
+@media (max-width: 767px) {
+	#filt_Cont {
+  display: none;
+}
+.cart_bdl_Listing .cart_prs {
+  width: 80px !important;
+}
+.sprite-card-descover {
+  background-position: 5px -261px;
+}
+.card-list .bootstrap-select .filter-option.sprite-card-descover {
+  background-position: 5px -257px;
+}
+.card-list .bootstrap-select .filter-option.sprite-card-add-more {
+  background-position: 5px -207px;
+}
+.header-text-sec .bootstrap-select.btn-group .dropdown-menu {
+  min-width: 208px;
+}
+.que-list .que-img {
+  margin-left: 0;
+  max-width: 100%;
+}
+}
+
+@media (max-width:1199px) {
+	#hidlogout, .nav.navbar-nav #hidlogouth{
+		  display: none !important;
+		}
+
+}

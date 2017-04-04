@@ -1,0 +1,8 @@
+*/config/development
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+phypmyadmin/
+/config/database.php
+/admin/system/application/config/config.php
